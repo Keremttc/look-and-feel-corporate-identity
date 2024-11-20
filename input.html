@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <h1>radio</h1>
+    <fieldset>
+        <legend>Selecteer jouw naam</legend>
+      
+        <div>
+          <input type="radio" id="Kerem" name="drone" value="huey" checked />
+          <label for="Kerem">Kerem</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="Anouar" name="drone" value="dewey" />
+          <label for="Anouar">Anouar</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="Suleyman" name="drone" value="louie" />
+          <label for="Suleymanie">Suleyman</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Suleyman" name="drone" value="louie" />
+            <label for="Aria">Aria</label>
+          </div>
+      </fieldset>
+      
+
+      <h2>range</h2>
+      <label for="tempB">Kies je temperatuur:</label><br />
+      <input type="range" id="tempB" name="temp" list="values" />
+      
+      <datalist id="values">
+        <option value="0" label="Brrr!"></option>
+        <option value="25" label="koud"></option>
+        <option value="50" label="medium"></option>
+        <option value="75" label="warm!"></option>
+        <option value="100" label="heet!"></option>
+      </datalist>
+      
+
+      <h2>tel</h2>
+        <label3 for="phone">
+           <P>Enter your phone number</P>
+          </label>
+          
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+          
+
+      
+</body>
+</html>

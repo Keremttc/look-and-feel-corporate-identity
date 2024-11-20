@@ -1,0 +1,62 @@
+    body{
+        background-color: rgb(159, 218, 218);
+    }
+
+    h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+    fieldset{
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+    }
+
+    legend{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        padding-left: 40%;
+    }
+
+
+    label{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+
+
+    label1{
+        color: red;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    input{
+        color: blueviolet;
+        border-radius: 20px;
+    }
+
+    label3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: blue;
+        border-radius: 40px;
+    }
+
+    datalist {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        writing-mode: vertical-lr;
+        width: 200px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      option {
+        padding: 0;
+      }
+      
+      input[type="range"] {
+        width: 200px;
+        margin: 0;
+      }
+      
+    
