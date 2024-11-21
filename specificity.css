@@ -1,127 +1,139 @@
-/* body{
-background-color: var(--main-color);
-font-family: var(--font-poppins);
-}
-
-header{
-font-size: var(--heading1);
-}
-
-
-
-
-h2 {
-    color: var(--error-color);
-
-} */
-
-
-
-
-  /* Algemene stijlen */
-body {
-    margin: 0;
+    /* body{
     background-color: var(--main-color);
-    color: #ffffff;
-    font-size: 15px;
     font-family: var(--font-poppins);
-}
+    }
 
-/* Header */
-header {
-    text-align: center;
+    header{
     font-size: var(--heading1);
-}
+    }
 
 
-h1 {
-    text-align: center;
-}
 
-h2 {
-    color: var(--error-color);
-}
 
-/* Knoppen */
-button {
-    position: absolute; /* Zorgt dat de knop onafhankelijk van andere elementen geplaatst wordt */
-    top: 20px;          /* Plaats de knop 20px vanaf de bovenkant */
-    right: 20px;        /* Plaats de knop 20px vanaf de rechterkant */
-    background-color: #1f62a1;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    border-radius: 50px;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
+    h2 {
+        color: var(--error-color);
 
-/* Main */
-main {
-    padding: 20px;
-}
+    } */
 
-input {
-    opacity: 0;
-}
 
-input:focus + img {
-    outline: 10px solid darkblue;
-}
 
-/* Afbeeldingen */
-img {
-    border: 3px solid #ffffff;
-    border-radius: 5em;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background: white;
-    max-width: 1500px;
-    height: auto;
-}
 
-p{
- align-items: center;
-}
-
-/* Profielen grid */
-.profielen {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    padding: 2%;
-}
-
-label {
-    font-size: 24px;
-    text-align: center;
-}
-
-@media (max-width: 480px) {
+    /* Algemene stijlen */
     body {
-        font-size: 13px;
+        margin: 0;
+        background-color: var(--main-color);
+        color: #ffffff;
+        font-size: 15px;
+        font-family: var(--font-poppins);
     }
 
+    /* Header */
     header {
-        font-size: 20px;
+        text-align: center;
+        font-size: var(--heading1);
     }
 
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        color: var(--error-color);
+    }
+
+    /* Knoppen */
     button {
-        width: 90%;
-        margin: 10px auto;
+        position: absolute; /* Zorgt dat de knop onafhankelijk van andere elementen geplaatst wordt */
+        top: 20px;          /* Plaats de knop 20px vanaf de bovenkant */
+        right: 20px;        /* Plaats de knop 20px vanaf de rechterkant */
+        background-color: #1f62a1;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        border-radius: 50px;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
     }
 
+    /* Main */
+    main {
+        padding: 20px;
+    }
+
+    input {
+        opacity: 0;
+    }
+
+    input:focus + img {
+        outline: 10px solid darkblue;
+    }
+
+    /* Afbeeldingen */
     img {
-        max-width: 100px;
+        border: 3px solid #ffffff;
+        border-radius: 5em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background: white;
+        max-width: 1500px;
+        height: auto;
     }
 
+    p{
+    align-items: center;
+    }
+
+    /* Profielen grid */
     .profielen {
-        grid-template-columns: repeat(2, 1fr); /* Twee kolommen in de grid */
-        gap: 10px; /* Ruimte tussen de items */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        padding: 2%;
     }
 
     label {
-        font-size: 16px; /* Iets kleinere tekst voor de namen */
-        text-align: center; /* Zorg dat de tekst gecentreerd blijft */
+        font-size: 24px;
+        text-align: center;
     }
-}
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 13px;
+        }
+
+        header {
+            font-size: 20px;
+        }
+
+        button {
+            width: 90%;
+            margin: 10px auto;
+        }
+
+        img {
+            max-width: 100px;
+        }
+
+        .profielen {
+            grid-template-columns: repeat(2, 1fr); /* Twee kolommen in de grid */
+            gap: 10px; /* Ruimte tussen de items */
+        }
+
+        label {
+            font-size: 16px; /* Iets kleinere tekst voor de namen */
+            text-align: center; /* Zorg dat de tekst gecentreerd blijft */
+        }
+    }
+
+    /* Hover-animatie voor afbeeldingen op desktop */
+    @media (min-width: 481px) {
+        .profielen img {
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Soepele overgang */
+        }
+
+        .profielen img:hover {
+            transform: scale(1.1); /* Vergroot de afbeelding iets */
+            box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5); /* Blauwe gloed */
+        }
+    }
