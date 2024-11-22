@@ -44,9 +44,9 @@
 
     /* Knoppen */
     button {
-        position: absolute; /* Zorgt dat de knop onafhankelijk van andere elementen geplaatst wordt */
-        top: 20px;          /* Plaats de knop 20px vanaf de bovenkant */
-        right: 20px;        /* Plaats de knop 20px vanaf de rechterkant */
+        position: absolute; 
+        top: 20px;          
+        right: 20px;       
         background-color: #1f62a1;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
         border-radius: 50px;
@@ -95,19 +95,19 @@
     
 
     label {
-        display: flex;              /* Zorgt ervoor dat de inhoud van de label een flexbox is */
-        flex-direction: column;     /* Zet de afbeelding en de naam onder elkaar */
-        align-items: center;        /* Centreert de inhoud horizontaal */
-        justify-content: center;    /* Centreert de inhoud verticaal */
+        display: flex;             
+        flex-direction: column;    
+        align-items: center;        
+        justify-content: center;   
         font-size: 24px;
-        text-align: center;         /* Centreert de tekst */
+        text-align: center;        
     }
 
 
     /* Specifieke styling voor p-tags */
         label p {
-        margin-top: 10px;           /* Ruimte tussen de afbeelding en de naam */
-        font-size: 18px;            /* Pas de grootte van de naam aan als nodig */
+        margin-top: 10px;          
+        font-size: 18px;          
     }
 
     @media (max-width: 480px) {
@@ -129,13 +129,13 @@
         }
 
         .profielen {
-            grid-template-columns: repeat(2, 1fr); /* Twee kolommen in de grid */
-            gap: 10px; /* Ruimte tussen de items */
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 10px; 
         }
 
         label {
-            font-size: 16px; /* Iets kleinere tekst voor de namen */
-            text-align: center; /* Zorg dat de tekst gecentreerd blijft */
+            font-size: 16px; 
+            text-align: center; 
         }
     }
 
