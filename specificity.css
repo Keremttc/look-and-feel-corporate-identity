@@ -60,9 +60,7 @@
 
     /* Afbeeldingen */
     img {
-        border: 3px solid #ffffff;
         border-radius: 5em;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         background: white;
         max-width: 1500px;
         height: auto;
@@ -138,6 +136,5 @@
 
         .profielen img:hover {
             transform: scale(1.1); /* Vergroot de afbeelding iets */
-            box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); /* Blauwe gloed */
         }
     }
