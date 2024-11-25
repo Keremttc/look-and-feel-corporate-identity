@@ -37,7 +37,7 @@
     /* Knoppen */
     button {
         position: absolute;          
-        right: 20px;       
+        /* right: 20px;        */
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
         border-radius: 50px;
         color: white;
@@ -81,9 +81,11 @@
     /* Profielen grid */
     .profielen {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(25px, 180px));
         gap: 20px;
         padding: 2%;
+        align-items:center;
         transition: filter 0.3s ease; /* Smooth transition */
     }
 
@@ -103,6 +105,11 @@
         text-align: center;        
     }
 
+
+
+    footer{
+        text-align: center;
+    }
 
     /* Specifieke styling voor p-tags */
         label p {
@@ -150,3 +157,6 @@
             transform: scale(1.1); /* Vergroot de afbeelding iets */
         }
     }
+
+
+    
