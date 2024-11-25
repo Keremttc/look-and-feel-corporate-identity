@@ -6,7 +6,6 @@
         color: #ffffff;
         /* font-size: 15px; */
         font-family: var(--font-poppins);
-        
 
     }
 
@@ -65,10 +64,15 @@
     img {
         max-width: 1500px;
         height: auto;
+        
     }
 
     .header-image{
         margin-left: auto;
+
+        @media (min-width: 470px) {
+            display: none;
+        }
     }
 
     p{
@@ -87,6 +91,10 @@
         padding: 2%;
         align-items:center;
         transition: filter 0.3s ease; /* Smooth transition */
+    
+        @media (min-width: 645px) {
+            /* display: none; */
+        }
     }
 
     .round-image {
@@ -117,46 +125,4 @@
         font-size: 18px;          
     }
 
-    @media (max-width: 480px) {
-        body {
-            font-size: 13px;
-        }
-
-        header {
-            font-size: 20px;
-            
-        }
-
-        button {
-            width: 90%;
-            margin: 10px auto;
-        }
-
-        img {
-            max-width: 110px;
-        }
-
-        .profielen {
-            grid-template-columns: repeat(2, 1fr); 
-            gap: 10px; 
-        }
-
-        label {
-            font-size: 16px; 
-            text-align: center; 
-        }
-    }
-
-    /* Hover-animatie voor afbeeldingen op desktop */
-    @media (min-width: 481px) {
-        .profielen img {
-            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Soepele overgang */
-        }
-
-        .profielen img:hover {
-            transform: scale(1.1); /* Vergroot de afbeelding iets */
-        }
-    }
-
-
-    
+ 
