@@ -86,14 +86,17 @@
     .profielen {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit, minmax(25px, 180px));
-        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+        max-width: 48em;
+        gap: 1.5;
         padding: 2%;
         align-items:center;
         transition: filter 0.3s ease; /* Smooth transition */
+        margin-inline: auto;
     
         @media (min-width: 645px) {
             /* display: none; */
+            
         }
     }
 
@@ -118,7 +121,7 @@
     footer{
         text-align: center;
         display: none;
-        @media (min-width: 570px) {
+        @media (min-width: 640px) {
             display: block;
         }
     }
