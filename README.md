@@ -40,7 +40,7 @@ Hierbij een foto. Mijn insteek was om eerst telefoon formaat te maken en daarna 
 
 
 
-<!-- Voeg een link toe naar Github Pages 🌐--> https:[//keremttc.github.io/the-client-website/](https://keremttc.github.io/look-and-feel-corporate-identity/)
+https://keremttc.github.io/look-and-feel-corporate-identity/<!-- Voeg een link toe naar Github Pages 🌐-->
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
