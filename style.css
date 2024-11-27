@@ -13,7 +13,8 @@
     header {
         /* text-align: center; */
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
 
     }
 
@@ -67,8 +68,12 @@
         
     }
 
-    .header-image{
+    .button1 {
         margin-left: auto;
+    }
+
+    .header-image{
+        /* margin-left: auto; */
 
         @media (min-width: 470px) {
             display: none;
