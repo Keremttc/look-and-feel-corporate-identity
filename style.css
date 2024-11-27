@@ -100,6 +100,16 @@
         }
     }
 
+        @media (min-width: 640px) {
+            .profielen img {
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Soepele overgang */
+            }
+            .profielen img:hover {
+                transform: scale(1.1); /* Vergroot de afbeelding  */
+            }
+        }
+
+
     .round-image {
         border-radius: 50%;
         background: white;
@@ -121,7 +131,7 @@
     footer{
         text-align: center;
         display: none;
-        @media (min-width: 640px) {
+        @media (min-width: 470px) {
             display: block;
         }
     }
@@ -132,4 +142,3 @@
         font-size: 18px;          
     }
 
- 
